@@ -44,14 +44,15 @@
   width: 33.33%;
   padding: 44px 47px 48px 48px;
   height: 512px;
-  border: 1px solid #f3d1bf;
 }
 .container .box-container .box:nth-child(2) {
   height: 560px;
 }
-.container .box-container .box:first-child,
-.container .box-container .box:last-child {
-  margin-top: 48px;
+.container .box-container .box:first-child{
+margin-top: 48px;
+}
+.container .box-container .box:nth-child(2) {
+  height: 560px;
 }
 
 .container .box-container .box h3 {
@@ -108,8 +109,11 @@
   margin-right: 16px;
 }
 
+
+
 .container .box-container .box:first-child {
   border-radius: 6px 0px 0px 6px;
+  border: 1px solid #f3d1bf;
 }
 
 .container .box-container .box:nth-child(2) {
@@ -120,6 +124,7 @@
 
 .container .box-container .box:last-child {
   border-radius: 0px 6px 6px 0px;
+  border: 1px solid #f3d1bf;
 }
 
 .container .box-container .box .button-1 {
